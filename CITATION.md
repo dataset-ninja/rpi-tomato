@@ -13,7 +13,7 @@ If you make use of the RpiTomato data, please cite the following reference:
   year         = 2021,
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.5596363},
-url          = {https://doi.org/10.5281/zenodo.5596363}
+  url          = {https://doi.org/10.5281/zenodo.5596363}
 }
 ```
 
