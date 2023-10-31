@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "RpiTomato"
+PROJECT_NAME: str = "RpiTomato Dataset"
 PROJECT_NAME_FULL: str = "RpiTomato Dataset: Greenhouse Tomatoes with Different Ripeness Stages"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
@@ -53,6 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 PAPER: Optional[str] = "https://www.mdpi.com/2073-4395/12/2/356"
 CITATION_URL: Optional[str] = "https://zenodo.org/record/5596363/export/hx"
+
 AUTHORS: Optional[List[str]] = [
     "Moreira, Germano",
     "Magalhães, Sandro Augusto",
@@ -60,6 +61,9 @@ AUTHORS: Optional[List[str]] = [
     "dos Santos, Filipe Neves",
     "Cunha, Mário",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["mccunha@fc.up.pt"]
+
+
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "University of Porto, Portugal",
     "Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência (INESC TEC), Portugal",
@@ -114,6 +118,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
