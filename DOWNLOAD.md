@@ -1,6 +1,6 @@
 Dataset **RpiTomato Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/7/8/Yq/qUWrWJuSCufWPvRXHErXzZVNcvhHZYz2a1gEdIerhcka9XxsDLdCn5tQTFLNjUa34e5ZsT4LlujTcKBgP9uy11mFVrjZO2h1FLbkzYJ8F61g15yuWeEpz0qibSwR.tar)
+ [Download](https://www.dropbox.com/scl/fi/72lkq8j0sb9tztfzhh2s2/rpitomato-dataset-DatasetNinja.tar?rlkey=wl7qmn1jq95rz78588fj2pox7&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
